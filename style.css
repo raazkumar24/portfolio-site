@@ -55,8 +55,8 @@
   --section-padding: 3.5rem 1.5rem;
 
   /* Border Radius */
-  --border-radius: 10px;
-  --border: 5px solid #e0e0e0;
+  --border-radius: 5px;
+  --border: 10px solid #e0e0e0;
   --border2: 1px solid rgba(255, 255, 255, 0.3);
 
   /* Shadows */
