@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
   changeActiveLink(); // Run on initial load to set the correct active link
 });
 
-//projects
+//projects left and right arrow
 document.addEventListener("DOMContentLoaded", function () {
   const leftArrow = document.querySelector(".left-arrow");
   const rightArrow = document.querySelector(".right-arrow");
@@ -58,55 +58,55 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 //email
-document.addEventListener("DOMContentLoaded", function () {
-  const sections = document.querySelectorAll("section");
-  const header = document.querySelector("header");
-  const images = document.querySelectorAll(".home-section img, .project-image");
-  const aboutRow = document.querySelector(".about-section .row-container");
-  const buttons = document.querySelectorAll(
-    ".btn-primary, .home-section .left a, .right .btn a"
-  );
+// document.addEventListener("DOMContentLoaded", function () {
+//   const sections = document.querySelectorAll("section");
+//   const header = document.querySelector("header");
+//   const images = document.querySelectorAll(".home-section img, .project-image");
+//   const aboutRow = document.querySelector(".about-section .row-container");
+//   const buttons = document.querySelectorAll(
+//     ".btn-primary, .home-section .left a, .right .btn a"
+//   );
 
-  function handleScroll() {
-    const triggerBottom = window.innerHeight * 0.9;
+//   function handleScroll() {
+//     const triggerBottom = window.innerHeight * 0.9;
 
-    sections.forEach((section) => {
-      const sectionTop = section.getBoundingClientRect().top;
-      if (sectionTop < triggerBottom) {
-        section.classList.add("visible");
-      } else {
-        section.classList.remove("visible");
-      }
-    });
+//     sections.forEach((section) => {
+//       const sectionTop = section.getBoundingClientRect().top;
+//       if (sectionTop < triggerBottom) {
+//         section.classList.add("visible");
+//       } else {
+//         section.classList.remove("visible");
+//       }
+//     });
 
-    const headerTop = header.getBoundingClientRect().top;
-    if (headerTop < triggerBottom) {
-      header.classList.add("visible");
-    }
+//     const headerTop = header.getBoundingClientRect().top;
+//     if (headerTop < triggerBottom) {
+//       header.classList.add("visible");
+//     }
 
-    images.forEach((img) => {
-      const imgTop = img.getBoundingClientRect().top;
-      if (imgTop < triggerBottom) {
-        img.classList.add("visible");
-      }
-    });
+//     images.forEach((img) => {
+//       const imgTop = img.getBoundingClientRect().top;
+//       if (imgTop < triggerBottom) {
+//         img.classList.add("visible");
+//       }
+//     });
 
-    const aboutTop = aboutRow.getBoundingClientRect().top;
-    if (aboutTop < triggerBottom) {
-      aboutRow.classList.add("visible");
-    }
+//     const aboutTop = aboutRow.getBoundingClientRect().top;
+//     if (aboutTop < triggerBottom) {
+//       aboutRow.classList.add("visible");
+//     }
 
-    buttons.forEach((btn) => {
-      const btnTop = btn.getBoundingClientRect().top;
-      if (btnTop < triggerBottom) {
-        btn.classList.add("visible");
-      }
-    });
-  }
+//     buttons.forEach((btn) => {
+//       const btnTop = btn.getBoundingClientRect().top;
+//       if (btnTop < triggerBottom) {
+//         btn.classList.add("visible");
+//       }
+//     });
+//   }
 
-  window.addEventListener("scroll", handleScroll);
-  handleScroll(); // Trigger the function on page load
-});
+//   window.addEventListener("scroll", handleScroll);
+//   handleScroll(); // Trigger the function on page load
+// });
 
 //gmail massage received
 document
@@ -128,3 +128,19 @@ document
       }
     );
   });
+
+//dark mode
+// Function to toggle theme
+// document.getElementById('dark-mode-checkbox').addEventListener('change', function () {
+//   if (this.checked) {
+//     document.documentElement.setAttribute('data-theme', 'dark');
+//   } else {
+//     document.documentElement.removeAttribute('data-theme');
+//   }
+// });
+
+const toggle = document.getElementById("dark-mode-toggle");
+
+toggle.addEventListener("change", () => {
+  document.body.classList.toggle("dark-mode", toggle.checked);
+});
