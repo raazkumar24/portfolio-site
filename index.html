@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <h1>RajWeb</h1>
+      </div>
+      <input type="checkbox" id="menu-toggle" style="display: none" />
+      <label
+        for="menu-toggle"
+        class="menu-toggle"
+        aria-label="Toggle navigation"
+      >
+        <i class="fa-solid fa-bars" aria-hidden="true"></i>
+        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+      </label>
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#qualifications">Qualifications</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section
+        id="home"
+        class="home-section"
+        data-aos="fade-in"
+        data-aos-duration="1000"
+        data-aos-offset="200"
+      >
+        <div
+          class="left"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-offset="300"
+        >
+          <h2>Hello!</h2>
+          <div class="intro">
+            <h6>I'm</h6>
+            <span>RajWeb</span>
+          </div>
+          <p>And I'm a <span class="multiple-text"></span></p>
+          <a href="#about">Read More</a>
+        </div>
+        <div class="warp">
+          <div
+            class="center"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-offset="300"
+          >
+            <img src="./images/profile.png" alt="logo" />
+          </div>
+          <div
+            class="right"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-offset="100"
+          >
+            <div class="btn">
+              <a href="#">Download CV</a>
+              <a href="#">Hire Me</a>
+            </div>
+            <div class="social-icons">
+              <a class="click-sound" href="#"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="click-sound" href="#"><i class="fab fa-twitter"></i></a>
+              <a class="click-sound" href="#"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a class="click-sound" href="#"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a class="click-sound" href="#"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!----------------- ABOUT ----------------->
+
+      <section id="about" class="about-section" data-aos="fade-up">
+        <h2>About</h2>
+        <div class="row-container">
+          <div
+            class="left"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-offset="400"
+          >
+            <img
+              src="./images/fullprofile.png"
+              alt="Your Name"
+              class="profile-image"
+            />
+          </div>
+          <div
+            class="right"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-offset="200"
+          >
+            <h3>Who I Am</h3>
+            <p>
+              Hi, I'm I'm Raj Shekhar, a passionate and innovative Front-End
+              Developer with a knack for creating visually stunning and
+              user-friendly websites. With a keen eye for detail and a love for
+              coding, I transform ideas into interactive digital experiences.
+            </p>
+            <p>
+              I hold a Full Stack Web Developer Certification and have spent the
+              last 1 years honing my skills in front-end development. From
+              crafting responsive layouts to implementing complex animations,
+              I've worked on diverse projects that challenge and excite me.
+            </p>
+          </div>
+        </div>
+        <div class="skills-section">
+          <h3>My Skillset</h3>
+          <p class="description">
+            The Big Oxmox advised her not to do so, because there were thousands
+            of bad Commas.
+          </p>
+          <div
+            class="skills-wrapper"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <div class="skill">
+              <div class="circle" data-progress="98"></div>
+              <p>WordPress</p>
+            </div>
+            <div class="skill">
+              <div class="circle" data-progress="95"></div>
+              <p>Web Design</p>
+            </div>
+            <div class="skill">
+              <div class="circle" data-progress="89"></div>
+              <p>Web/Mobile App</p>
+            </div>
+            <div class="skill">
+              <div class="circle" data-progress="80"></div>
+              <p>Full stack web Developer</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!----------------- Qualification ----------------->
+      <section
+        id="qualifications"
+        class="qualifications-section"
+        data-aos="fade-up"
+      >
+        <h2>My Qualifications</h2>
+        <p>
+          I have a diverse set of qualifications and achievements that make me a
+          well-rounded and capable professional.
+        </p>
+        <div class="qualifications-container">
+          <div class="card" data-aos="fade-right" data-aos-duration="1000">
+            <div class="icon">🎓</div>
+            <h3>Education</h3>
+            <p>
+              <strong>Bachelor of Science in Computer Science</strong
+              ><br />University of California, Berkeley<br />Graduated: May 2018
+            </p>
+            <p>
+              <strong>Master of Science in Data Science</strong><br />University
+              of Washington<br />Graduated: December 2020
+            </p>
+          </div>
+          <div class="card" data-aos="fade-up" data-aos-duration="1000">
+            <div class="icon">⚙️</div>
+            <h3>Certifications</h3>
+            <p>
+              <strong>AWS Certified Solutions Architect - Associate</strong
+              ><br />Issued: June 2021
+            </p>
+            <p>
+              <strong>Google Cloud Certified Professional Data Engineer</strong
+              ><br />Issued: September 2022
+            </p>
+            <p>
+              <strong>Scrum Master Certified (SMC)</strong><br />Issued: March
+              2019
+            </p>
+          </div>
+          <div class="card" data-aos="fade-left" data-aos-duration="1000">
+            <div class="icon">🏆</div>
+            <h3>Achievements</h3>
+            <p>
+              <strong>Hackathon Winner - HackUMass 2019</strong><br />Developed
+              a mobile app to help the visually impaired
+            </p>
+            <p>
+              <strong>Recipient of the Dean's List Award</strong
+              ><br />University of California, Berkeley - 2016-2018
+            </p>
+            <p>
+              <strong>Published Research Paper</strong><br />Titled "Improving
+              Recommendation Systems with Machine Learning"
+            </p>
+          </div>
+        </div>
+        <div class="key-skills" data-aos="fade-up">
+          <h2>Key Skills</h2>
+          <div class="skills-wrapper">
+            <div class="skills-list-1">
+              <span class="skill">Python</span>
+              <span class="skill">Java</span>
+              <span class="skill">SQL</span>
+              <span class="skill">React</span>
+              <span class="skill">Node.js</span>
+              <span class="skill">AWS</span>
+              <span class="skill">Git</span>
+              <span class="skill">Agile</span>
+              <!-- Duplicatskill skills for continuous scrolling -->
+              <span class="skill">Python</span>
+              <span class="skill">Java</span>
+              <span class="skill">SQL</span>
+              <span class="skill">React</span>
+              <span class="skill">Node.js</span>
+              <span class="skill">AWS</span>
+              <span class="skill">Git</span>
+              <span class="skill">Agile</span>
+            </div>
+            <div class="skills-list-2">
+              <span class="skill">Python</span>
+              <span class="skill">Java</span>
+              <span class="skill">SQL</span>
+              <span class="skill">React</span>
+              <span class="skill">Node.js</span>
+              <span class="skill">AWS</span>
+              <span class="skill">Git</span>
+              <span class="skill">Agile</span>
+              <!-- Duplicate the skills for continuous scrolling -->
+              <span class="skill">Python</span>
+              <span class="skill">Java</span>
+              <span class="skill">SQL</span>
+              <span class="skill">React</span>
+              <span class="skill">Node.js</span>
+              <span class="skill">AWS</span>
+              <span class="skill">Git</span>
+              <span class="skill">Agile</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!----------------- SERVICES ----------------->
+
+      <section class="services-section" id="services" data-aos="fade-up">
+        <h2>Services</h2>
+        <p class="description">
+          The Big Oxmox advised her not to do so, because there were thousands
+          of bad Commas.
+        </p>
+        <div class="services-wrapper">
+          <div class="service" data-aos="fade-right">
+            <img src="./images/responsive.png" alt="Responsive" />
+            <h3>Responsive Design</h3>
+            <p>
+              We create responsive websites that adapt beautifully to any
+              device, ensuring a seamless user experience on desktops, tablets,
+              and smartphones.
+            </p>
+          </div>
+          <div class="service" data-aos="fade-up">
+            <img src="./images/coding.png" alt="Web Design" />
+            <h3>Web Design</h3>
+            <p>
+              Our web design services ensure that your website stands out,
+              offering visually appealing layouts and responsive functionality
+              across all devices.
+            </p>
+          </div>
+          <div class="service" data-aos="fade-left">
+            <img src="./images/app-development.png" alt="App Development" />
+            <h3>Web App Development</h3>
+            <p>
+              Our web development services focus on creating dynamic, responsive
+              websites that deliver seamless functionality and an exceptional
+              user experience across all devices.
+            </p>
+          </div>
+          <div class="service" data-aos="fade-right">
+            <img src="./images/search.png" alt="Search Ranking" />
+            <h3>Search Ranking</h3>
+            <p>
+              Our web development strategies are tailored to boost your
+              website's search ranking, ensuring higher visibility and better
+              performance in search engine results.
+            </p>
+          </div>
+          <div class="service" data-aos="fade-left">
+            <img src="./images/branding.png" alt="Branding" />
+            <h3>Branding</h3>
+            <p>
+              Our web development services strengthen your brand identity,
+              creating a consistent and impactful online presence that resonates
+              with your audience across all platforms.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!----------------- PROJECTS ----------------->
+      <section class="projects-section" id="projects" data-aos="fade-up">
+        <h2>My Projects</h2>
+        <p class="description">
+          The Big Oxmox advised her not to do so, because there were thousands
+          of bad Commas.
+        </p>
+        <div class="projects-container" data-aos="fade-in">
+          <button class="scroll-btn left-arrow">&#10094;</button>
+          <div class="projects-wrapper" id="projects-wrapper">
+            <div class="project-box" data-aos="fade-in">
+              <img
+                src="./images/assest1.jpg"
+                alt="Project 1"
+                class="project-image"
+              />
+              <div class="project-info">
+                <h3>To-Do List App:</h3>
+                <p>
+                  A task management app with features for creating, editing, and
+                  organizing tasks in a user-friendly interface.
+                </p>
+                <a href="project-link" class="btn btn-primary">View Project</a>
+              </div>
+            </div>
+            <div class="project-box">
+              <img
+                src="./images/assest1.jpg"
+                alt="Project 1"
+                class="project-image"
+              />
+              <div class="project-info">
+                <h3>Login & Sign-Up Form:</h3>
+                <p>
+                  An engaging login and sign-up form with smooth animations,
+                  enhancing user interaction and experience during
+                  authentication.
+                </p>
+                <a href="project-link" class="btn btn-primary">View Project</a>
+              </div>
+            </div>
+            <div class="project-box">
+              <img
+                src="./images/assest1.jpg"
+                alt="Project 1"
+                class="project-image"
+              />
+              <div class="project-info">
+                <h3>Business Landing Page:</h3>
+                <p>
+                  A professional, responsive landing page designed to attract
+                  clients, showcase services, and generate leads effectively.
+                </p>
+                <a href="project-link" class="btn btn-primary">View Project</a>
+              </div>
+            </div>
+            <div class="project-box">
+              <img
+                src="./images/assest1.jpg"
+                alt="Project 1"
+                class="project-image"
+              />
+              <div class="project-info">
+                <h3>Spotify Clone:</h3>
+                <p>
+                  A music streaming platform mimicking Spotify's functionality
+                  with responsive design, music library, and user-friendly
+                  navigation.
+                </p>
+                <a href="project-link" class="btn btn-primary">View Project</a>
+              </div>
+            </div>
+            <div class="project-box">
+              <img
+                src="./images/assest1.jpg"
+                alt="Project 1"
+                class="project-image"
+              />
+              <div class="project-info">
+                <h3>Amazing Portfolio:</h3>
+                <p>
+                  A visually impressive portfolio website showcasing skills,
+                  projects, and achievements with a focus on design and
+                  usability.
+                </p>
+                <a href="project-link" class="btn btn-primary">View Project</a>
+              </div>
+            </div>
+            <div class="project-box">
+              <img
+                src="./images/assest1.jpg"
+                alt="Project 1"
+                class="project-image"
+              />
+              <div class="project-info">
+                <h3>E-commerce Website:</h3>
+                <p>
+                  A scalable e-commerce site with responsive design, product
+                  listings, shopping cart, and secure checkout for enhanced user
+                  experience.
+                </p>
+                <a href="project-link" class="btn btn-primary">View Project</a>
+              </div>
+            </div>
+            <!-- Add more project boxes as needed -->
+          </div>
+          <button class="scroll-btn right-arrow">&#10095;</button>
+        </div>
+      </section>
+
+      <!----------------- CONTACT ----------------->
+
+      <section class="contact section" id="contact" data-aos="fade-up">
+        <div class="contact-section">
+          <h2>Contact Me</h2>
+          <p>
+            If you have any questions, need assistance, or need a project,
+            please don't hesitate to reach out. I'd be happy to help.
+          </p>
+          <div class="contact-container">
+            <!-- Left Side: Contact Information -->
+            <div class="contact-info" data-aos="fade-right">
+              <h3>Get in Touch</h3>
+              <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+              <p>
+                <i class="fas fa-map-marker-alt"></i> Your Location, City,
+                Country
+              </p>
+              <div class="social-icons">
+                <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                <a href="https://linkedin.com"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href="https://github.com"><i class="fab fa-github"></i></a>
+                <a href="https://facebook.com"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+              </div>
+            </div>
+
+            <!-- Right Side: Contact Form -->
+            <div class="contact-form" data-aos="fade-left">
+              <form id="contact-form">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    required
+                  ></textarea>
+                </div>
+                <input type="hidden" id="date" name="date" />
+
+                <button type="submit" class="btn btn-primary">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- <div class="footer-logo">
+            <h2>RajWeb</h2>
+          </div> -->
+
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#qualifications">qualifications</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-social">
+            <h3>Follow Me</h3>
+            <div class="social-icons">
+              <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+              <a href="https://linkedin.com"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="https://github.com"><i class="fab fa-github"></i></a>
+              <a href="https://facebook.com"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2024 RajWeb. All Rights Reserved.</p>
+        </div>
+      </footer>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      // Typing animation
+      const typed = new Typed(".multiple-text", {
+        strings: ["Frontend Developer", "Web Designer", "Ui/Ux Designer"],
+        typeSpeed: 70,
+        backSpeed: 70,
+        backDelay: 1000,
+        startDelay: 500, // Delay before typing starts
+        smartBackspace: true, // Only backspaces what doesn't match the previous string
+        loop: true,
+      });
+    </script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.emailjs.com/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("czjhCah9-cMUqjPR-");
+      })(); //for gmail
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 120, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 1000, // values from 0 to 3000, with step 50ms
+        easing: "ease", // default easing for AOS animations
+        once: false, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+      }); //animations
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
